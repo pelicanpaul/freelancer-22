@@ -1,23 +1,69 @@
-# ignore everything in the root except the "wp-content" directory.
-!wp-content/
+wp-admin
+wp-content/upgrade
+wp-content/ai1wm-backups
+wp-config.php
+web.config
+wp-content/cache
+wp-content/w3tc-config
+wp-content/uploads
 
-# ignore everything in the "wp-content" directory, except:
-# "mu-plugins", "plugins", "themes" directory
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
+wp-content/plugins/*
+!wp-content/plugins/acf-custom-presentation/*
 
-# ignore these plugins
-wp-content/plugins/hello.php
+wp-includes
+wp-content/themes/twenty*
+wp-content/themes/index.php
+wp-content/advanced-cache.php
+wp-content/index.php
 
-# ignore specific themes
-wp-content/themes/twenty*/
-
-# ignore node dependency directories
-node_modules/
+node_modules
 
 # ignore log files and databases
 *.log
 *.sql
 *.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.mp3
+*.mp4
+*.mov
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+.wpress
+# .gitignore
+.idea/
+/index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+aspnet_client/
+
+wflogs
+
+

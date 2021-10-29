@@ -1,0 +1,24 @@
+
+#copyright {
+  p {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+    line-height: 1.65;
+  }
+}
+
+@media only screen and (max-width: $md-max) {
+  #copyright {
+    p {
+      font-size: 12px;
+      margin: 0 0 10px;
+    }
+  }
+
+  .footer, .push {
+    height: 70px;
+  }
+}
+
+

@@ -1,0 +1,122 @@
+/* FOOTER*/
+
+footer {
+  width: 100%;
+  padding: 10px 40px;
+  font-size: 14px;
+}
+
+footer .gc-flex-wrapper {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+footer .gc-flex-wrapper.gc-flex-col-3 > div {
+  border: none;
+}
+
+footer h2 {
+  font-size: 20px;
+}
+
+footer h2:after {
+  content: ' '
+}
+
+footer ul.contact-info {
+  font-size: 15px;
+  margin: 1.5em 0;
+  list-style: none;
+}
+
+footer ul.contact-info li {
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul.contact-info strong {
+  font-size: 15px;
+  font-family: "CentraNo1", Arial, sans-serif;
+}
+
+footer ul.contact-info {
+
+}
+
+#contact-us a, footer a {
+  color: #222;
+}
+
+#contact-us a:hover, footer a:hover {
+  color: #FF3232;
+}
+
+ul.social {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  li {
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    text-indent: -9999px;
+    a {
+      display: block;
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  li.instagram {
+    background: url(/wp-content/themes/acme-vc/images/icon-instagram.svg) no-repeat;
+    background-size: contain;
+  }
+
+  li.facebook {
+    background: url(/wp-content/themes/acme-vc/images/icon-facebook.svg) no-repeat;
+    background-size: contain;
+  }
+
+  li.twitter {
+    background: url(/wp-content/themes/acme-vc/images/icon-twitter.svg) no-repeat;
+    background-size: contain;
+  }
+
+  li.linkedin {
+    background: url(/wp-content/themes/acme-vc/images/icon-linkedin.svg) no-repeat;
+    background-size: contain;
+  }
+
+}
+
+.link-login {
+  font-family: $font-family-sans-serif;
+}
+
+
+.logo-footer {
+  margin-left: calc(50% - 100px);
+  max-width: 200px;
+  filter: invert(1);
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  footer ul.contact-info {
+    margin: .5em 0 1.5em;
+  }
+
+  .logo-footer {
+    width: 130px;
+    height: auto;
+    margin-left: calc(50% - 65px);
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+}

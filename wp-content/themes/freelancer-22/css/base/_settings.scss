@@ -1,0 +1,36 @@
+
+
+/*--------------------------------------------------------*\
+    Fonts
+\*--------------------------------------------------------*/
+
+$font-family-sans-serif: 'Raleway', sans-serif;
+$font-family-serif: Georgia, serif;
+
+/*--------------------------------------------------------*\
+    Colors
+\*--------------------------------------------------------*/
+
+$brand-primary: #262161;
+$brand-secondary: #d1976a;
+$black: #000;
+$gray-darkest: #222222;
+$gray-dark: #707070;
+$gray-light: rgba(0, 0, 0, 0.16);
+$gray-lightest: #E5E5E5;
+$gray-lightest: #E8E8E8;
+
+$header-height: 95px;
+
+//WordPress admin bar
+$wp-admin-bar-height: 32px;
+$wp-admin-bar-height-mobile: 46px; //max-with: 782px;
+
+$logged-in-height: 127px;
+
+// breakpoints
+$xs-max: 576px !default; // Set xs breakpoint's max width
+$sm-max: 768px !default; // Set sm breakpoint's max width
+$md-max: 992px !default; // Set md breakpoint's max width
+$lg-max: 1200px !default; // Set lg breakpoint's max width
+
