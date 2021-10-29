@@ -1,7 +1,7 @@
 {
-  "name": "kinneret",
+  "name": "freelancer-22",
   "version": "0.1.0",
-  "description": "Kinneret WordPress Site",
+  "description": "Freelancer WordPress Theme",
   "author": "pelicanpaul",
   "scripts": {
     "scss": "node-sass --watch css -o css"

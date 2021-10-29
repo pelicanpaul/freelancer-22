@@ -23,9 +23,7 @@
 <div id="site-header">
 
     <div class="container-brand">
-        <a class="site-logo-link " href="/">
-            <img src="<?php echo get_template_directory_uri() ?>/images/logo-kinneret.png" alt="Kinneret Group" class="brand-logo"/>
-        </a>
+        <?php include 'includes/site-branding.php'; ?>
     </div>
 
     <div id="container-main-menu">

@@ -5,7 +5,7 @@
 	<div class="content-wrapper first">
 		<h1><?php the_title() ?></h1>
 
-        <div class="content-text <?php the_field('content_width'); ?>">
+        <div class="content-text <?php /*the_field('content_width');*/ ?>">
 
 		    <?php the_content(); ?>
 

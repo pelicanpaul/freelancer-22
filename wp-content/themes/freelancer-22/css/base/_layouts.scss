@@ -15,6 +15,8 @@ html, body {
   height: 50px; /* .push must be the same height as .footer */
 }
 
+
+
 /* LAYOUTS*/
 
 #container-main {
@@ -28,6 +30,7 @@ html, body {
 }
 
 .content-wrapper {
+  background-color: rgba(0,0,0,0.5);
   width: 100%;
   padding: 40px;
   .content-text.half-width {

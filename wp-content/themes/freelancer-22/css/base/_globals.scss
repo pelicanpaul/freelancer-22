@@ -2,39 +2,73 @@
 
 body {
   font-family: $font-family-sans-serif;
-  color: #222;
+  color: #fff;
   font-size: 25px;
   font-weight: normal;
   vertical-align: baseline;
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
+body.home {
+  background: url(http://localhost:7022/wp-content/uploads/2021/10/17425072_10154229307306571_3217908685618448743_n.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+
 h1 {
+  text-transform: uppercase;
   font-style: normal;
-  font-size: 45px;
-  font-weight: normal;
+  font-size: 20px;
+  font-weight: 600;
   vertical-align: baseline;
   margin: 0 0 20px;
-  padding: 0;
+  padding: 50px 0 0;
 }
 
 h2 {
+  text-transform: uppercase;
   font-style: normal;
-  font-size: 32px;
-  font-weight: normal;
+  font-size: 18px;
+  font-weight: 600;
   vertical-align: baseline;
   margin: 0;
   padding: 0;
 }
 
 h3 {
+  text-transform: uppercase;
   font-style: normal;
-  font-size: 24px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: 600;
   vertical-align: baseline;
   margin: 0;
   padding: 0;
+}
+
+h1.site-title, p.site-title a {
+  text-transform: uppercase;
+  font-size: 20px;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 100;
+}
+
+p.site-title {
+  line-height: 1;
+  margin: 0;
+}
+
+p.site-description {
+  font-size: 16px;
+}
+
+.content-text {
+  max-width: 600px;
 }
 
 a {
@@ -99,18 +133,15 @@ a:hover {
 
 p {
   font-size: 22px;
-  color: #222;
   margin: 0 0 20px;
   line-height: 1.65;
 }
 
 p.lead {
   font-size: 32px;
-  color: #222;
 }
 p.small {
   font-size: 15px;
-  color: #222;
   line-height: 1.45;
 }
 
