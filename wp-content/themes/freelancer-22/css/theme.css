@@ -57,7 +57,7 @@ body {
   background-color: #000; }
 
 body.home {
-  background: url(http://localhost:7022/wp-content/uploads/2021/10/17425072_10154229307306571_3217908685618448743_n.jpg) no-repeat center;
+  background: url(http://localhost:7022/wp-content/uploads/2021/10/17425072_10154229307306571_3217908685618448743_n.jpg) no-repeat center #000;
   background-size: cover; }
 
 h1 {
@@ -94,7 +94,8 @@ h1.site-title, p.site-title a {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-weight: 100; }
+  font-weight: 100;
+  letter-spacing: 3px; }
 
 p.site-title {
   line-height: 1;
@@ -310,6 +311,10 @@ html, body {
   img.brand-logo {
     width: 120px;
     height: 33px; } }
+
+@media screen and (max-width: 1024px) {
+  .content-wrapper {
+    padding: 20px; } }
 
 .row {
   box-sizing: border-box;
@@ -1231,13 +1236,13 @@ body.admin-bar #site-header {
 
 @media screen and (max-width: 1024px) {
   #site-header {
-    background-color: rgba(255, 255, 255, 0.85); }
+    padding: 20px; }
   .hamburger {
     display: block;
     width: 30px; }
   #container-main-menu.active .hamburger {
     position: fixed;
-    right: 40px;
+    right: 20px;
     z-index: 2; }
   #container-main-menu.active .hamburger .menu-icon-line {
     background-color: #fff; }

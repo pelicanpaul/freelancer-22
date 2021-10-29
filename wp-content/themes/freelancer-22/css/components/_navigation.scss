@@ -81,7 +81,7 @@ body.admin-bar {
 @media screen and (max-width: 1024px) {
 
   #site-header {
-    background-color: rgba(255,255,255, 0.85);
+    padding: 20px;
   }
 
   .hamburger {
@@ -92,7 +92,7 @@ body.admin-bar {
   #container-main-menu.active {
     .hamburger {
       position: fixed;
-      right: 40px;
+      right: 20px;
       z-index: 2;
       .menu-icon-line {
         background-color: #fff;

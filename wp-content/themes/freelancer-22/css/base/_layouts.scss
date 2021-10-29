@@ -136,4 +136,13 @@ html, body {
 
 }
 
+// Mobile
+
+@media screen and (max-width: 1024px) {
+
+  .content-wrapper {
+    padding: 20px;
+  }
+}
+
 
