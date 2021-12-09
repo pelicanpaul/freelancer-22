@@ -11,12 +11,9 @@ body {
   background-color: #000;
 }
 
-body.home {
-  background: url(http://localhost:7022/wp-content/uploads/2021/10/17425072_10154229307306571_3217908685618448743_n.jpg) no-repeat center #000;
-  background-size: cover;
+.red {
+  color: $brand-primary
 }
-
-
 
 h1 {
   text-transform: uppercase;
@@ -141,6 +138,12 @@ p {
 p.lead {
   font-size: 32px;
 }
+
+p.medium {
+  font-size: 18px;
+  line-height: 1.45;
+}
+
 p.small {
   font-size: 15px;
   line-height: 1.45;
@@ -187,6 +190,18 @@ a.btn-small {
   position: fixed;
   height: 100%;
   width: 100%
+}
+
+.content-wrapper {
+  ul {
+    margin: 20px 30px;
+    font-size: 22px;
+    line-height: 1.65;
+    li {
+      margin-bottom: 5px;
+    }
+  }
+
 }
 
 

@@ -56,9 +56,8 @@ body {
   padding: 0;
   background-color: #000; }
 
-body.home {
-  background: url(http://localhost:7022/wp-content/uploads/2021/10/17425072_10154229307306571_3217908685618448743_n.jpg) no-repeat center #000;
-  background-size: cover; }
+.red {
+  color: #FF3232; }
 
 h1 {
   text-transform: uppercase;
@@ -108,17 +107,17 @@ p.site-description {
   max-width: 600px; }
 
 a {
-  color: #262161;
+  color: #FF3232;
   text-decoration: none; }
 
 a:hover {
-  color: #262161;
+  color: #FF3232;
   text-decoration: none; }
 
 a,
 a:visited,
 a:active {
-  color: #262161;
+  color: #FF3232;
   text-decoration: none;
   outline: none;
   -o-transition: all 0.2s linear;
@@ -129,7 +128,7 @@ a:active {
   transition: all 0.2s linear; }
 
 a:hover {
-  color: #262161;
+  color: #FF3232;
   text-decoration: none;
   -o-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -166,6 +165,10 @@ p {
 p.lead {
   font-size: 32px; }
 
+p.medium {
+  font-size: 18px;
+  line-height: 1.45; }
+
 p.small {
   font-size: 15px;
   line-height: 1.45; }
@@ -176,7 +179,7 @@ a.btn {
   border-radius: 4px;
   font-family: "Raleway", sans-serif;
   color: #fff;
-  background-color: #262161;
+  background-color: #FF3232;
   text-transform: uppercase;
   font-size: 16px;
   text-align: center;
@@ -191,7 +194,7 @@ a.btn-small {
   border-radius: 4px;
   font-family: "Raleway", sans-serif;
   color: #fff;
-  background-color: #262161;
+  background-color: #FF3232;
   text-transform: uppercase;
   font-size: 13px;
   text-align: center;
@@ -206,6 +209,14 @@ a.btn-small {
   position: fixed;
   height: 100%;
   width: 100%; }
+
+.content-wrapper ul {
+  margin: 20px 30px;
+  font-size: 22px;
+  line-height: 1.65; }
+
+.content-wrapper ul li {
+  margin-bottom: 5px; }
 
 /* TABLES */
 table.black-borders {
@@ -315,6 +326,10 @@ html, body {
 @media screen and (max-width: 1024px) {
   .content-wrapper {
     padding: 20px; } }
+
+body.light .content-wrapper {
+  background-color: #fff;
+  color: #222; }
 
 .row {
   box-sizing: border-box;
@@ -1316,6 +1331,51 @@ body.blog article ul.blog-item-info li, body.single-post article ul.blog-item-in
   padding: 0;
   margin: 0 10px 0 0;
   font-size: 14px; }
+
+.page-template-home .content-wrapper.first {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-direction: column; }
+
+.page-template-home .main-content {
+  width: 33%;
+  padding: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.page-template-home .main-content .band-title {
+  font-size: 72px;
+  margin: 20px 0;
+  font-family: "Fredericka the Great", cursive; }
+
+.page-template-home .main-content .sub-head {
+  font-size: 52px;
+  margin: 20px 0;
+  color: #FF0000;
+  font-family: "Fredericka the Great", cursive; }
+
+.page-template-home .main-content .genres {
+  width: 100%;
+  list-style: none;
+  margin: 30px 0;
+  font-size: 14px; }
+
+.page-template-home .main-content .members {
+  font-size: 22px;
+  margin: 30px 0;
+  line-height: 1.8;
+  color: #FF0000;
+  font-family: "Fredericka the Great", cursive; }
+
+.page-template-home .main-content .instrument {
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif; }
 
 #copyright p {
   font-size: 14px;

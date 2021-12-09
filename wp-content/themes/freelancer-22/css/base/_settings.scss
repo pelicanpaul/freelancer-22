@@ -6,18 +6,21 @@
 
 $font-family-sans-serif: 'Raleway', sans-serif;
 $font-family-serif: Georgia, serif;
+$font-family-decorative: 'Fredericka the Great', cursive;
+
 
 /*--------------------------------------------------------*\
     Colors
 \*--------------------------------------------------------*/
 
-$brand-primary: #262161;
-$brand-secondary: #d1976a;
+$red: #FF0000;
+$brand-primary: #FF3232;
+$brand-secondary: #ccc;
 $black: #000;
 $gray-darkest: #222222;
 $gray-dark: #707070;
 $gray-light: rgba(0, 0, 0, 0.16);
-$gray-lightest: #E5E5E5;
+$gray-lighter: #ccc;
 $gray-lightest: #E8E8E8;
 
 $header-height: 95px;

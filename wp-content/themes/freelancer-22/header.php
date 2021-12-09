@@ -11,12 +11,18 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <?php
+    // color scheme
+    $the_id = get_the_ID();
+    $page_style = get_field('color_scheme', $the_id);
+    ?>
 
 
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class($page_style); ?>>
 
 <div class="page-wrapper">
 
