@@ -184,6 +184,16 @@ body.admin-bar {
 
 }
 
+ul#menu-footer-menu {
+  display: block;
+  margin: 20px 0 50px;
+  list-style: none;
+    li {
+      float: left;
+      padding: 15px;
+  }
+}
+
 
 // Phones
 

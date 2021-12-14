@@ -9,10 +9,10 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+  margin: 0 auto -150px; /* the bottom margin is the negative value of the footer's height */
 }
 .footer, .push {
-  height: 50px; /* .push must be the same height as .footer */
+  height: 150px; /* .push must be the same height as .footer */
 }
 
 
@@ -30,10 +30,14 @@ html, body {
 }
 
 .content-wrapper {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.9);
   width: 100%;
   padding: 40px;
-  .content-text.half-width {
+  .content-text.full-width {
+    width: 100%;
+    max-width: 100%;
+  }
+  .content-text.contained {
     max-width: 600px;
   }
 }
@@ -62,6 +66,8 @@ html, body {
   text-decoration: none;
 }
 
+
+/*content-text full-width*/
 
 
 /*Mobile*/
